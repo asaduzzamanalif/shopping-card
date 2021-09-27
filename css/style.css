@@ -1,0 +1,38 @@
+body {
+    margin: 100px 0 0 0;
+    padding: 0;
+}
+
+.product-list img {
+    width: 100%;
+}
+
+.btn-btn {
+    border: none;
+    margin: 0 5px ;
+    padding: 5px;
+    background: none;
+    border-radius: 50%;
+}
+
+.mobilePrice,
+.mobileCasePrice {
+    margin: 0 0 0 50px;
+    font-weight: bold;
+}
+
+.product-list,
+.total-cost-area {
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px 40px;
+
+}
+
+img {
+    transition: .9s;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
